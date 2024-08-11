@@ -23,6 +23,8 @@ def main():
     ...
 ```
 
+By default, NetJIT will write all its prediction results to `report.txt` in the directory where the python script containing the main function is located. To change the behavior or to customize the prediction outputs, users can provide their own reporters.
+
 ### Credits
 
 This repository contains codes from the following repositories as the examples of NetJIT:
